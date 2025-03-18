@@ -34,17 +34,6 @@ python spotify_analysis.py
 streamlit run spotify_dashboard.py
 ```
 
-## Expected Dataset Structure
-
-The analysis works with different Spotify dataset formats and automatically adapts to them. Common columns include:
-- `track_name` or `track`: Name of the song
-- `artist_name` or `artist(s)_name`: Name of the artist
-- `streams` or `popularity`: Popularity metric
-- Audio features with naming variations:
-  - Percentage format: `danceability_%`, `energy_%`, etc.
-  - Regular format: `danceability`, `energy`, etc.
-- Optional: `genre`: Music genre
-
 ## Output
 
 The script generates visualizations in the `images/` directory, including:
