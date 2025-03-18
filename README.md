@@ -13,7 +13,7 @@ The analysis focuses on:
 ## Setup Instructions
 
 1. Clone this repository
-2. Place either `spotify_2021.csv` or `spotify_2023.csv` in the `data/` directory
+2. Place `spotify_2023.csv` in the `data/` directory
 3. Install required Python packages:
 
 ```bash
